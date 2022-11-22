@@ -8,7 +8,7 @@ Feature: To buy a ticket
         Then user sees text "Вы выбрали билеты:"
         When user click ".acceptin-button"
         Then user sees text "Электронный билет"
-        Then user sees the reserved seat "1/2"
+       
 
     Scenario: Should book two seats
         Given user is on "http://qamid.tmweb.ru/client/index.php" page
@@ -20,7 +20,7 @@ Feature: To buy a ticket
         Then user sees text "Вы выбрали билеты:"
         When user click ".acceptin-button"
         Then user sees text "Электронный билет"
-        Then user sees the reserved seat "5/3, 5/4"
+        
 
     Scenario: Should not book
         Given user is on "http://qamid.tmweb.ru/client/index.php" page
