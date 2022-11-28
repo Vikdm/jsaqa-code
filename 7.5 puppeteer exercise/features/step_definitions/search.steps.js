@@ -66,12 +66,12 @@ Given(
 );
 
 When(
-  "user chooses by {string}",
+  "user chooses by day {string}",
   {
     timeout: 30000,
   },
   async function (string) {
-    await clickElement(this.page, string);
+    await clickElement(this.page, 'a:nth-child('+string+')');
   }
 );
 
@@ -79,8 +79,8 @@ When("user chooses movie {string}", async function (string) {
   return await clickElement(this.page, string);
 });
 
-When("user chooses seat {string}", async function (string) {
-  return await clickElement(this.page, string);
+When("user chooses row {string} seat {string1}", async function (string, string1) {
+  return await clickElement(this.page, 'div:nth-child('+string+')', 'span:nth-child('+string1+')');
 });
 
 When("user click {string}", async function (string) {
