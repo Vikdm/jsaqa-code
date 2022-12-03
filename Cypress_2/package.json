@@ -1,0 +1,19 @@
+{
+  "name": "cypress_2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress run -b chrome",
+    "cy:headed": "cypress run -b -- headed chrome",
+    "cy:headless": "cypress run --headless -b chrome",
+    "cy:electron": "cypress run",
+    "cy:electronHeadless": "cypress run --headless",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^10.11.0"
+  }
+}

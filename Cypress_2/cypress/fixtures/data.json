@@ -1,0 +1,12 @@
+[{
+    "days": ".page-nav .page-nav__day",
+    "films": ".movie",
+    "h1": "h1",
+    "post": "body > main > section > div > form > label:nth-child(1) > input",
+    "psw": "body > main > section > div > form > label:nth-child(2) > input",
+    "date": "a:nth-child(2)",
+    "time": "23:45",
+    "seat1": "div:nth-child(3) > span:nth-child(1)",
+    "seat2": "div:nth-child(3) > span:nth-child(2)",
+    "tickets": "p:nth-child(2) > span"
+}]
