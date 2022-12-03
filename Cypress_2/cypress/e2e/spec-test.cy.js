@@ -47,7 +47,7 @@ describe("Admin page test", () => {
 });
 
 describe("Buy tickets", () => {
-  it.only("Buy tickets", () => {
+  it.skip("Buy tickets", () => {
     cy.visit("/");
     data.forEach((data) => {cy.get(data.date).click()});
     data.forEach((data) => {cy.contains(data.time).click()});
