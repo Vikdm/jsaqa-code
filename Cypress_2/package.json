@@ -5,6 +5,9 @@
   "main": "index.js",
   "scripts": {
     "cy:dashboard": "cypress run -record --key 4f800bfb-e155-4758-b73c-7b1ea2768bfc",
+    "cy:api": "cypress run --spec 'cypress/e2e/api.spec.cy.js' --browser chrome --group API --ci-build-id 1 --record --key 4f800bfb-e155-4758-b73c-7b1ea2768bfc",
+    "cy:movie": "cypress run --spec 'cypress/e2e/spec-test.cy.js'  --browser chrome --group MOVIE --ci-build-id 1 --record --key 4f800bfb-e155-4758-b73c-7b1ea2768bfc",
+    "cy:parallel": "npm run cy:api & npm run cy:movie",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
