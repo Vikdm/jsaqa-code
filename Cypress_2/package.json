@@ -13,8 +13,7 @@
     "cy:parallel": "npm run cy:api & npm run cy:movie",
     "cy:par:electron": "npm run cy:api & npm run cy:movie:electron",
     "cy:api2": "cypress run --spec cypress/e2e/api/api1.spec.cy.js --browser chrome --group api2 --ci-build-id 100 --record --key 4f800bfb-e155-4758-b73c-7b1ea2768bfc",   
-    "cy:par:2": "npm run cy:parallel & npm run cy:api2",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "cy:par:2": "npm run cy:parallel & npm run cy:api2"
   },
   "author": "",
   "license": "ISC",

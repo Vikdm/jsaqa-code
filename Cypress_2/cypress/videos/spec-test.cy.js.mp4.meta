@@ -1,0 +1,31 @@
+;FFMETADATA1
+[CHAPTER]
+TIMEBASE=1/1000
+START=1746
+END=2655
+title=Main page test Seven days
+[CHAPTER]
+TIMEBASE=1/1000
+START=3451
+END=3568
+title=Main page test Movie
+[CHAPTER]
+TIMEBASE=1/1000
+START=3537
+END=3686
+title=Main page test Header
+[CHAPTER]
+TIMEBASE=1/1000
+START=1672
+END=3840
+title=Admin page test Positive log in test
+[CHAPTER]
+TIMEBASE=1/1000
+START=4138
+END=6012
+title=Admin page test Positive log in test
+[CHAPTER]
+TIMEBASE=1/1000
+START=0
+END=null
+title=Buy tickets Buy tickets
